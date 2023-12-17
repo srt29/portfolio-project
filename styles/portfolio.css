@@ -11,15 +11,21 @@ h1,h2,h3,h4,h5,h6 {
 }
 p {
     font-family: 'Kalnia', serif;
+    font-size: 16px;
+    line-height: 30px;
 }
 h1 {
     font-weight: 600;
     font-size: 60px;
+    line-height: 1.5;
+}
+h2 {
+    font-size: 40px;
 }
 
 .hero {
     text-align: center;
-    padding: 160px 0;
+    padding: 60px 0;
 }
 .hero p {
     font-size: 36px;
@@ -32,6 +38,10 @@ h1 {
     font-size: 24px;
     line-height: 2;
 }
+.resource-section {
+    background-color: aliceblue;
+}
+
 .btn-branding {
     background: var(--branding-color)	;
     border-radius: 4px;
@@ -40,3 +50,18 @@ h1 {
     line-height: 27px;
     padding: 12px;
 }
+.btn-branding-outline {
+    background: var(--branding-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 10px;
+}
+@media (max-width:960px) {
+    h1 {
+        font-size: 45px;
+    }
+    .resource-section {
+    text-align: center;
+    }}
