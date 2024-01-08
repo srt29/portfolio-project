@@ -77,11 +77,46 @@ line-height: 80px;
     line-height: 27px;
     padding: 10px;
 }
+.logo {
+    max-width: 100px;
+    border: solid 2px;
+    border-color: white;
+}
+.navigation-colour {
+    background: white;
+    padding: 0 20px;
+}
+nav {
+    padding: 20px 0;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 40px;
+    margin-left: 10px
+}
+nav a {
+    text-decoration: none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+}
+ 
+nav a:hover,nav li.active a  {
+    color: var(--branding-color);
+
+}
 @media (max-width:960px) {
     h1 {
         font-size: 40px;
     }
     .content-container {
+        text-align: center;
+    }
+    .navigation-colour {
         text-align: center;
     }
     .resource-section {
