@@ -22,6 +22,10 @@ h1 {
 h2 {
     font-size: 40px;
 }
+h4 {
+    font-weight: 500;
+    font-size: 36px;
+}
 
 .hero {
     text-align: center;
@@ -109,16 +113,54 @@ nav a:hover,nav li.active a  {
     color: var(--branding-color);
 
 }
+footer {
+    margin: 60px
+}
+footer .contact-box {
+    background: var(--secondary-color);
+    padding: 20px;
+    border-radius: 10px;
+}
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+
+}
+footer .email-link:hover {
+    color: var(--branding-color);
+}
+footer .social-links a{
+    margin: 10px 20px;
+    color: var(--branding-color);
+    background-color: var(--secondary-color);
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+    color: white;
+    background: var(--branding-color);
+}
 @media (max-width:960px) {
     h1 {
         font-size: 40px;
     }
+    h4 {
+        font-size: 18px;
+      }
     .content-container {
         text-align: center;
     }
     .navigation-colour {
         text-align: center;
     }
+  
+  
+  footer .email-link {
+    font-size: 20px;
+  }
     .resource-section {
     text-align: center;
     }}
